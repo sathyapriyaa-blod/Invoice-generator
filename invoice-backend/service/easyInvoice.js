@@ -1,4 +1,6 @@
 const fs = require("fs");
+const easyinvoice = require("easyinvoice");
+
 var today = new Date();
 var dueday = new Date();
 dueday.setDate(dueday.getDate() + 30)
@@ -113,6 +115,21 @@ const data = {
   },
 };
 
+/**
+ * Returns a PDF via filesystem and status of request.
+ * 
+ * Status: "String"
+ *
+ * @returns {PDF} via file system.
+ * @returns {String} Status of request.
+ */
+
+const easyinvoiceservice = async() => {
+  const result = await easyinvoice.createInvoice(data);
+  await fs.writeFileSync("invoice.pdf", result.pdf, "base64");
+  return "Status: Success, Invoice Generated";
+}
+
 module.exports  = {
-    data
+  easyinvoiceservice
 }
