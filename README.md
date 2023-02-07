@@ -29,4 +29,6 @@ India's simplest & fastest blood donor portal. We provide a clutter free experie
 - Added implementation of HTML to JSON
 - Added implementation of JSON to HTML
 
-Todo: Add puppeteer or alternative to convert HTML to PDF
+Todo: 
+    - Add puppeteer or alternative to convert HTML to PDF
+    - Logic to edit the JSON based on inputs
