@@ -9,13 +9,14 @@ India's simplest & fastest blood donor portal. We provide a clutter free experie
 ### Codebase setup Invoice-generator
 
 - Clone this repository wtih `git clone https://github.com/adharshblod/Invoice-generator.git`
+- Get inside the invoice-generator directory.
 - Run `npm install` in your terminal to install all dependencies.
 - Run `npm run dev` to start the server at http://localhost:5173.
 - Get started with coding.
 
 
 ### Codebase setup Invoice-backend
-
+- Get inside the invoice-backend directory.
 - Clone this repository wtih `git clone https://github.com/adharshblod/Invoice-generator.git`
 - Run `npm install` in your terminal to install all dependencies.
 - Run `npm start` to start the server at http://localhost:8080.
