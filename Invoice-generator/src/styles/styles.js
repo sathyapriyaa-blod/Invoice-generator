@@ -30,6 +30,10 @@ const styles = {
     flex: 1,
     paddingRight: '8px',
   },
+  
+  'w-5': {
+    paddingRight: '5px',
+  },
 
   'ml-30': {
     flex: 1,
@@ -47,12 +51,20 @@ const styles = {
     width: '55%',
   },
 
+  'w-43': {
+    width: '43%',
+  },
+
   'w-45': {
     width: '45%',
   },
 
   'w-60': {
     width: '60%',
+  },
+
+  'w-62': {
+    width: '62%',
   },
 
   'w-40': {
@@ -125,7 +137,7 @@ const styles = {
 
   page: {
     fontFamily: 'Nunito',
-    fontSize: '13px',
+    fontSize: '8px',
     color: '#555',
     padding: '40px 35px',
   },
